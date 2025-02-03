@@ -1,0 +1,60 @@
+{
+  "id": "example-bidder",
+  "name": "Example Bidder",
+  "version": "0.0.0",
+  "description": "Example bidder implementation",
+  "maintainers": ["example@example.com"],
+  "homepage": "",
+
+  "business": {
+    "regions": ["NA", "EU", "APAC"],
+    "currencies": ["USD", "EUR", "JPY"],
+    "gvl_id": 123,
+    "sellers_json": "https://exmaple.com/sellers.json"
+  },
+
+  "media": {
+    "banner": true,
+    "video": true,
+    "native": false,
+    "multiformat": true
+  },
+
+  "bidding": {
+    "real_time": true,
+    "dynamic_allocation": true,
+    "multi_size": true,
+    "price_floors": true,
+    "openrtb": {
+        "supported_version": ["2.6"]
+    },  
+    "currencies": {
+      "primary": "USD",
+      "supported": ["USD", "EUR", "JPY"]
+    }
+  },
+
+  "privacy": {
+    "gdpr_supported": true,
+    "ccpa_supported": true,
+    "coppa_supported": true,
+    "protected_audience": true,
+    "first_party_data": true
+  },
+
+  "data": {
+    "user_sync": true,
+    "identity_support": ["uid2", "ramp_id"],
+    "contextual_targeting": true,
+    "segment_targeting": true
+  },
+
+  "connection": {
+    "client_side": true,
+    "server_side": false
+  },
+
+  "privacy_sandbox": {
+    
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "required": {
+    "placement_id": {
+      "type": "string",
+      "description": "Placement ID for the ad unit"
+    }
+  },
+  "optional": {
+    "publisher_id": {
+      "type": "string",
+      "description": "Publisher specific identifier"
+    }
+  }
+}
